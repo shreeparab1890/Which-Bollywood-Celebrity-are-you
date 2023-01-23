@@ -16,4 +16,4 @@ Streamlit is used to build a front-end of the web application for Indian Cricket
 ![app](app.png)
 
 ### Check the app:
-[![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Indian_Cricketer_Classifier)
+[![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Which_Bollywood_Celebrity_Are_You)
