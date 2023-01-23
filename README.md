@@ -4,7 +4,7 @@ The dataset is taken from <a href="https://www.kaggle.com/datasets/sushilyadav19
 You can follow the analysis on <a href="https://www.kaggle.com/code/shrikrishnaparab/which-bollywood-celebrity-are-you-using-cnn">Kaggle</a>  
 
 ## Packeges Used:
- ![Python][python] ![scikit-learn][sklearn-image] ![Pandas][Pandas-image] ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Jupyter Notebook][ipython-image] ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white)
+ ![Python][python] ![scikit-learn][sklearn-image] ![Pandas][Pandas-image] ![NumPy](https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white) ![Jupyter Notebook][ipython-image] ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black) ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Keras](https://img.shields.io/badge/Keras-%23D00000.svg?style=for-the-badge&logo=Keras&logoColor=white) ![TensorFlow](https://img.shields.io/badge/TensorFlow-%23FF6F00.svg?style=for-the-badge&logo=TensorFlow&logoColor=white)
  
 [python]: https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54
 [sklearn-image]:https://img.shields.io/badge/scikit--learn-%23F7931E.svg?style=for-the-badge&logo=scikit-learn&logoColor=white
@@ -17,3 +17,10 @@ Streamlit is used to build a front-end of the web application for Indian Cricket
 
 ### Check the app:
 [![Open in Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-blue)](https://huggingface.co/spaces/Shrikrishna/Which_Bollywood_Celebrity_Are_You)
+
+## Process:
+     1. Load in an image (an image of yourself or a random image)
+     2. Extract the face out of the image using MTCNN
+     3. Perform preprocessing so that the face image can be recognized.
+     4. Load the image in the deep neural network “ResNet-50”.
+     5. Extract the results
